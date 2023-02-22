@@ -51,7 +51,7 @@ function Dropdown() {
                           {DiseaseList.map(l => 
                               l.name === value ?
                                   l.nutrients.map(n =>
-                                      <div key={n.id} className="text-lg" >{n.nutrient}</div>
+                                      <div key={n} className="text-lg" >{n}</div>
                                   ) : null
                              )}
                         
@@ -63,7 +63,7 @@ function Dropdown() {
                           {DiseaseList.map(l =>
                               l.name === value ?
                                   l.food.map(f =>
-                                      <div key={f.id} className="text-lg">{f.food}</div>
+                                      <div key={f} className="text-lg">{f}</div>
                                   ):null
                             )}
                       </div>
