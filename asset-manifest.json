@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/healthCompanion/static/css/main.3b213c26.css",
+    "main.js": "/healthCompanion/static/js/main.b3e5c3b9.js",
+    "index.html": "/healthCompanion/index.html",
+    "main.3b213c26.css.map": "/healthCompanion/static/css/main.3b213c26.css.map",
+    "main.b3e5c3b9.js.map": "/healthCompanion/static/js/main.b3e5c3b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b213c26.css",
+    "static/js/main.b3e5c3b9.js"
+  ]
+}
